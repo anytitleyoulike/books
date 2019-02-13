@@ -10,10 +10,6 @@ body {
     background-color: #ecececff;
 }
 
-.form-container {
-    background-color: white;
-}
-
 .bg-header {
     background-color: lightcoral;
 }
@@ -38,7 +34,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    /* background: thistle; */
     justify-content: space-between;
     max-width: 960px;
     padding-top: 40px;
