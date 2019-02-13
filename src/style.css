@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Aleo', serif;
+    background-color: #ecececff;
+}
+
+.form-container {
+    background-color: white;
+}
+
+.bg-header {
+    background-color: lightcoral;
+}
+.menu-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 960px;
+    padding: 30px 30px;
+}
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 2.25em;
+}
+
+.btn-add:hover {
+    background: #f26868ff;
+}
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* background: thistle; */
+    justify-content: space-between;
+    max-width: 960px;
+    padding-top: 40px;
+}
+
+.book:hover {
+    background-color: #ded8d8ff;
+}
+
+.book {
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 180px;
+    cursor: pointer;
+}
+
+.book-info {
+    max-width: 180px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.25em;
+    width: 100%;
+}
+.book-info p {
+    margin: 5px;
+}
+
+.author {
+    font-size: 0.8em;
+}
+.subtitle {
+    font-size: 0.8em;
+    color: #818181ff
+}
+
+.book-img img {
+    max-width: 180px;
+    max-height: 300px;
+}
+
+.book-img span {
+    position: absolute;
+    background-color: lightcoral;
+    color: white;
+    font-size: 1.5em;
+    padding: 3px 5px;
+}
