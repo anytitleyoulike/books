@@ -7,11 +7,6 @@ const cors = require('cors');
 const server = require('http').Server(app);
 
 app.use(cors());
-//permite utilizar url encoded na hora de enviar/editar formulário
-app.use(express.urlencoded({extended: true}));
-//permite utilizar json na hora de enviar/editar formulário
-app.use(express.json());
-
 app.use(routes);
 
 server.listen(3003, () => {
